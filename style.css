@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Primary Btn */
+.primary_btn {
+    background-color: #FF5454;
+    border: 0;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    transition: .3s all;
+    cursor: pointer;
+}
+.primary_btn:hover {
+    background-color: #c01414;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header Section Style */
+
+header {
+    padding: 150px 200px;
+    background-image: linear-gradient(0deg, black, transparent), url("images/donation13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.header_title {
+    font-size: 75px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.header_disc {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Donate Section Style */
+
+.donate_today {}
+
+.donate_sec_container {
+    padding: 100px 100px 50px;
+    text-align: center;
+}
+
+.section_title {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.section_disc {
+    font-size: 20px;
+    color: #565656;
+    font-weight: 500;
+    padding: 40px 70px;
+}
+
+.tk_list {}
+
+.tk_list ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tk_list ul li {
+    padding: 80px;
+    background-color: #fafafa;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #707070;
+    transition: .3s all;
+}
+
+.tk_list ul li:hover {
+    border: 2px solid #ff7e7e;
+    background-color: #ffeeee;
+    color: #ff7e7e;
+    font-weight: 800;
+}
+
+.donate_form input {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+    border: 0;
+    border-bottom: 1px solid #969696;
+    padding: 10px;
+}
+
+/* Donate Plan Style */
+.donate_plan_container {
+    display: flex;
+    gap: 20px;
+}
+
+.donate_food {
+    background-color: #edf5f6;
+}
+
+.donate_family {
+    background-color: #ffeeee;
+}
+
+.donate_education {
+    background-color: #fff4d6;
+}
+
+.donate_plan_item {
+    text-align: left;
+    padding: 50px 40px;
+    border-radius: 10px;
+}
+
+.plan_item_title {
+    margin: 30px 0 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.plan_item_disc {
+    color: #565656;
+    font-weight: 500;
+}
+
+/* Content Section Style */
+.content_section {}
+
+.content_section_1, .content_section_2 {
+    display: flex;
+    gap: 100px;
+    padding: 100px;
+}
+
+.content_section_2 {}
+
+.content_section_item {
+}
+
+.content_intem_title {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.content_item_disc {
+    padding: 20px 0px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #565656;
+}
+.contribute_btn{
+    display: inline;
+}
+
+/* Style For Submit Section */
+.submit_form{
+    padding: 100px;
+    background-color: #fff4d6;
+    width: 50%;
+    margin: 0 auto;
+}
+.submit_form input{
+    background-color: #d9d9d9;
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.submit_form input[type=submit]{
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #ff5959;
+    cursor: pointer;
+}
+.submit_form input[type=submit]:hover{
+    background-color: #e22b2b;
+}
+
+/* Style For Footer Section */
+
+footer{
+    background-color: #000;
+    text-align: center;
+}
+footer h2{
+    color: #ff5959;
+    padding: 50px;
+}
+footer p{
+    color: #fff;
+    padding-bottom: 50px;
+    
+}
+.copyRight{
+    color: #ff5959;
+    text-decoration: none;
+}
